@@ -29,7 +29,7 @@ the following image is the specific route that shows the whole coordinates from 
 the following image is the performance of the algorithm, based on the same x-axis's value, different y values mean different distances of different routes in the cluster(one cluster may have 100 kinds of routes), the value of y is the bigger the better  
 ![image](https://github.com/chenhuaizhen/GA-BestRoute/raw/master/image/6.jpg)
 
-另外，只有点数大于10个才会进行遗传算法，否则采用穷举搜索
+另外，只有点数大于10个才会进行遗传算法，否则采用穷举搜索  
 What's more, only when the number of the points over 10 would use Genetic Algorithm, otherwise use Exhaustive Attack method
 
 遗传算法实现位置  
