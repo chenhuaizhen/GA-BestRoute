@@ -34,12 +34,12 @@ What's more, only when the number of the points over 10 would use Genetic Algori
 
 遗传算法实现位置  
 the position of the genetic algorithm in main.js  
-[Genetic Algorithm](https://github.com/chenhuaizhen/GA-BestRoute/raw/master/main.js#L151 "code")
+[Genetic Algorithm](https://github.com/chenhuaizhen/GA-BestRoute/blob/master/main.js#L151 "code")
 
 另附穷举法位置  
 the position of the Exhaustive Attack method in main.js  
-[Exhaustive Attack method](https://github.com/chenhuaizhen/GA-BestRoute/raw/master/main.js#L378 "code")
+[Exhaustive Attack method](https://github.com/chenhuaizhen/GA-BestRoute/blob/master/main.js#L378 "code")
 
 还有贪婪算法  
 and the Greedy Algorithm  
-[Greedy Algorithm](https://github.com/chenhuaizhen/GA-BestRoute/raw/master/main.js#L351 "code")
+[Greedy Algorithm](https://github.com/chenhuaizhen/GA-BestRoute/blob/master/main.js#L351 "code")
