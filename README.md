@@ -28,3 +28,10 @@ the following image is the specific route that shows the whole coordinates from 
 下图是遗传算法的迭代过程，同一横坐标上不同的y值代表一次迭代中一个族类里不同个体（路径规划方案）的价值（总距离），y值越大越优，代表距离越短  
 the following image is the performance of the algorithm, based on the same x-axis's value, different y values mean different distances of different routes in the cluster(one cluster may have 100 kinds of routes), the value of y is the bigger the better  
 ![image](https://github.com/chenhuaizhen/GA-BestRoute/raw/master/image/6.jpg)
+
+另外，只有点数大于10个才会进行遗传算法，否则采用穷举搜索
+What's more, only when the number of the points over 10 would use genetic algorithm, otherwise use Exhaustive Attack method
+
+算法实现位置  
+the position of the genetic algorithm in main.js  
+[code](http://blog.csdn.net/guodongxiaren "code")

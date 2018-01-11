@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	text-align: center;
+	margin-top: 10px;
+}
+#bigcon{
+	width: 1200px;
+	height: 500px;
+	margin:20px auto;
+}
+.con{
+	width: 1000px;
+	height: 500px;
+	margin:20px auto;
+	/*background: url("back.png") no-repeat center;*/
+	background-color: #D4D4D4;
+}
+#hideXY{
+	float: left;
+	width: 120px;
+	height: 500px;
+}
+#hideXY p{
+	line-height: 10px;
+	margin-bottom: 235px;
+}
+span{
+	display: block;
+	text-align: center;
+}
+#text{
+	display: block;
+	margin:10px auto;
+	width:250px;
+	height:25px;
+}
+.btn{
+	margin:10px auto;
+	width:250px;
+	height:50px;
+	text-align: center;
+	line-height: 50px;
+	background-color: #16a0a0;
+	color:white;
+}
+.btn:hover{
+	cursor: pointer;
+	background-color: #1CCECE;
+}
+table.default{
+	border:1px solid #0283c5;
+	border-collapse:collapse;
+	margin-top:5px;
+}
+table.default td{
+	padding:2 5 2 5;
+	height:26px;
+	border:1px solid #ffffff;
+}
+table.default tr{
+	background-color:#f0f0f0;
+}
+table.default tr.title td{
+	font-weight:bold;
+	background:#16a0a0;
+	color:#ffffff;
+	border:1px solid #ffffff;
+	white-space:nowrap;
+	height:26px;
+	vertical-align:middle;
+	text-align:center;
+	line-height:26px;
+}
+table.default tr.list{
+	text-align: center;	
+	line-height:26px;
+	vertical-align:middle;
+}
+table.default tr.list td.operate{
+	font-size: 0;
+	overflow:hidden;
+}
+table.default tr.list td a{
+	display: inline-block;
+	vertical-align: top;
+	width:50%;
+	text-align: center;
+	font-size: 14px;
+}

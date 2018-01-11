@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Route</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript" src="jquery-1.11.2.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+	<h1>GA-BestRoute</h1>
+	<div class="con">
+		<canvas id="canvas" width="1000px" height="500px"></canvas>
+	</div><!--con-->
+	<span>请输入货物总数</span>
+	<input type="text" name="" id="text">
+	<div class="btn" onclick="initO()">生成</div>
+	<div class="btn" onclick="run()">运行</div>
+	<div class="btn" onclick="demo1()">Demo1/2388.423221087048</div>
+	<div class="btn" onclick="demo2()">Demo2/2786.191205465833</div>
+	<div id="table"></div>
+	<div id="bigcon" style="display:none">
+		<div id="hideXY"></div>
+		<div class="con" id="hide" style="float:left;margin:0">
+			<canvas id="canvasChart" width="1000px" height="500px"></canvas>
+		</div><!--con-->
+		<p style="width:100%;text-align:center;float:left">时间/代</p>
+	</div>
+
+</body>
+</html>
